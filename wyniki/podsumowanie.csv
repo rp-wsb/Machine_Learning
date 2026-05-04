@@ -1,0 +1,5 @@
+﻿Model,Próg decyzyjny,Accuracy,Precision (PNEUMONIA),Sensitivity,Specificity,F1 (PNEUMONIA),F1 (macro),Czas (min),Epoki
+CNN,0.5,0.8125,0.7886,0.9564,0.5726,0.8644,0.7803,23.1,15
+CapsNet (BCE),0.5,0.7965,0.9519,0.7103,0.9402,0.8135,0.7948,58.3,30
+CapsNet+Focal (Youden),0.6545,0.8862,0.8843,0.941,0.7949,0.9118,0.8758,34.3,20
+CapsNet+Focal (Sens≥0.92),0.7197,0.8814,0.9225,0.8846,0.8761,0.9031,0.8751,34.3,20
